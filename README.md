@@ -16,7 +16,8 @@ Currently the library has both Python 3 and Python 2 support.
 ## Installation
 You can install the package by running
 ```
-pip install neural_renderer_pytorch
+Make sure your CUDA_PATH variable is set.
+python setup.py install --user
 ```
 Since running install.py requires PyTorch, make sure to install PyTorch before running the above command.
 ## Running examples
